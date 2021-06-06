@@ -8,5 +8,21 @@
 </head>
 <body>
     <h1>welcome to my code</h1>
+    <script>
+    /*    fetch('https://randomuser.me/api/')
+        .then(response => response.json())
+        .then(data => console.log(data.results[0].id.value));*/
+
+    var myobj = {
+        "name" : "Toyota",
+        "company" : "car name",
+        "message" : function() {
+            return "this is a car";
+        }
+    }
+    myobj.model = "A4";
+    myobj.year = 2914;
+    console.log(myobj.message());
+    </script>
 </body>
 </html>
